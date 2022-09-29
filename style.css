@@ -5,13 +5,13 @@
 body {
   background-color: #2F2E41;
   width: 100vw;
-  height: 100vh;
 }
 header {
   display: flex;
+  justify-content: space-between;
   width: 1100px;
   height: 30px;
-  margin: auto;
+  margin: 50px auto;
 }
 ul {
   display: flex;
@@ -22,34 +22,29 @@ ul {
 li {
   font-size: 14px;
   line-height: 28px;
-  font-style: normal;
-  font-weight: 500;
-  text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 a {
-  
+  text-decoration: none;
+  color: white;
 }
 main {
   width: 1100px;
   height: 283px;
-  margin: auto;
+  margin: 95px auto ;
 }
 h1, p {
   color: white;
 }
 h1 {
   font-family: 'JetBrains Mono', monospace;
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 40px;
+  margin-bottom: 60px;
 }
 p {
   color: #C2C2C2;
   font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 28px;
 }
@@ -58,14 +53,15 @@ span {
 }
 .page {
   width: 1100px;
-  height: 283px;
+  height: 290px;
   display: flex;
   justify-content: center;
   text-align: center;
+  gap: 80px;
 }
-.page img {
-  width: 401px;
-  height: 283px;
+.textos {
+  width: 1100px;
+  height: 290px;
 }
 footer {
   Width: 568px;
@@ -74,17 +70,16 @@ footer {
   color: white;
   text-align: center;
   font-family: 'JetBrains Mono', monospace;
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 28px;
 }
 .line {
   width: 568px;
   border: 1px solid #00BFA6;
+  margin-bottom: 20px;
 }
-.cadeado {
+#cadeado {
   position: fixed;
-  bottom: 0px;
-  left: 0px;
+  bottom: 10px;
+  left: 20px;
 }
