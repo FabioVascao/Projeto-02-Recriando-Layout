@@ -9,8 +9,8 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  width: 1100px;
-  height: 30px;
+  max-width: 1100px;
+  max-height: 30px;
   margin: 50px auto;
 }
 ul {
@@ -29,8 +29,8 @@ a {
   color: white;
 }
 main {
-  width: 1100px;
-  height: 283px;
+  max-width: 1100px;
+  max-height: 283px;
   margin: 95px auto ;
 }
 h1, p {
@@ -60,12 +60,12 @@ span {
   gap: 80px;
 }
 .textos {
-  width: 1100px;
-  height: 290px;
+  max-width: 1100px;
+  max-height: 290px;
 }
 footer {
-  Width: 568px;
-  Height: 55px;
+  max-width: 568px;
+  max-height: 55px;
   margin: auto;
   color: white;
   text-align: center;
@@ -74,7 +74,7 @@ footer {
   line-height: 28px;
 }
 .line {
-  width: 568px;
+  max-width: 568px;
   border: 1px solid #00BFA6;
   margin-bottom: 20px;
 }
