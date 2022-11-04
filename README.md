@@ -9,7 +9,7 @@ Nesse desafio, você deverá recriar uma aplicação, a partir de um layou
 ![preview](preview.jpg)
 
 
-[🔗 Clique aqui para acessar](https://fabiovascao.github.io/Projeto-02-Recriando-Layout/)
+[🔗 Clique aqui para acessar o Projeto](https://fabiovascao.github.io/Projeto-02-Recriando-Layout/)<br/> 
 [🔗 Clique aqui para acessar o Figma](https://www.figma.com/file/AkSafCfR24JHozg5LfszuJ/Explorer-(Copy)?node-id=0%3A1)
 
 ## 🛠 Tecnologias
